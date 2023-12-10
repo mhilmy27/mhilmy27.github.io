@@ -1,0 +1,549 @@
+
+/* ================= DECLARATION ==================== */
+
+.section{
+    margin: 0%;
+}
+
+body{
+    margin: 0;
+}
+    
+.container{
+    display: grid;
+    justify-content: center ;
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    display: flex;
+    height: fit-content;
+    width: 90vw;
+    padding-top: 1%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: start ;
+    align-content: start;
+    width: 100%;
+    height: 80vh;   
+    margin: 0% 1% 0% 1%;
+}
+
+.col{
+    flex-direction: column;
+}
+
+h1, h2, h3, p, a{
+    margin: 0%;
+    padding: 0rem;
+    color: #2811d1ce;
+}
+
+h1{
+    font-size: 4.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4{
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{  
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text-blue{
+    color: #2811d1ce;
+}
+
+/* ================= BACKGROUND ==================== */
+
+.gradient-background{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+}
+
+.line-head-container{
+    display: flex;
+    width: 100%;
+    height: 7.5vh;
+}
+
+.line-bottom-container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 7.5vh;
+}
+
+.circle-bottom-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10px;
+    margin-top: 5%;
+
+}
+
+.line-left{
+    display: flex;
+    align-self: flex-end;
+    background-color: white;
+    width: 40%;
+    height: 6px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.line-right{
+    display: flex;
+    align-self: flex-start;
+    background-color: white;
+    width: 40%;
+    height: 6px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.bottom-circle1{
+    display: flex;
+    align-self: flex-start;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 8%;
+}
+
+.bottom-circle2{
+    display: flex;
+    align-self: flex-start;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 2px;
+}
+
+.bottom-circle3{
+    display: flex;
+    align-self: flex-start;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 2px;
+}
+
+
+
+
+/* ================= COVER STYLE ==================== */
+
+.content.cover-container{
+    margin-bottom: 1%;
+}
+
+.greeting{
+    margin-left: 2%;        
+}
+
+.greeting h1, h2{
+    color: white;
+}
+
+.cover{
+    min-width: 250px;
+    max-width: 530px;
+    border-radius: 50%;
+    align-self: center;
+    border: none;
+}
+
+
+/* ================= MY WORK STYLE ==================== */        
+
+#mywork-row{
+    height: fit-content;
+}
+
+.tittle-mywork{
+    justify-self: center;
+    margin-top: 3rem;
+}
+
+.mywork {
+    display: flex;
+    justify-content: space-around;
+    gap: 1vw;
+    text-align: center;
+}
+
+.work1, .work2, .work3{
+    display: grid;
+    justify-content: center;
+    margin-top: 5vh;
+    flex-shrink: 1;            
+    border: 1.5px solid #2811d1ce;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.work-pict1, .work-pict2, .work-pict3{
+    display: flex;
+    justify-content: center;
+    object-fit: scale-down;
+    max-width: 400px;
+    max-height: 250px;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+.mywork h3{            
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 1%;
+    padding-right: 5%;
+    border: 1px solid lightblue;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #0dadd0 0%, #2811d1ce 100%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.work1:hover{
+    -webkit-box-shadow: 0px 0px 9px 3px rgba(40,17,209,0.52);
+    -moz-box-shadow: 0px 0px 9px 3px rgba(40,17,209,0.52);
+    box-shadow: 0px 0px 9px 3px rgba(40,17,209,0.52);
+}
+
+.work2:hover{
+    -webkit-box-shadow: 0px 0px 9px 3px rgba(40,17,209,0.52);
+    -moz-box-shadow: 0px 0px 9px 3px rgba(40,17,209,0.52);
+    box-shadow: 0px 0px 9px 3px rgba(40,17,209,0.52);
+}
+
+.work3:hover{
+    -webkit-box-shadow: 0px 0px 9px 3px rgba(40,17,209,0.52);
+    -moz-box-shadow: 0px 0px 9px 3px rgba(40,17,209,0.52);
+    box-shadow: 0px 0px 9px 3px rgba(40,17,209,0.52);
+}
+
+
+
+/* ================= ABOUT STYLE ==================== */
+
+.container.about{
+    background-color: whitesmoke;
+    padding: 3% 0% 3% 0%;
+}
+
+.about .content p{
+    margin-top: 2%;
+    font-size: 27px;
+    text-align: justify;
+    padding: 1%;
+}
+
+.about .content h2{
+    padding: 0% 1%;
+}
+
+.about .photo-container{
+    width: 300px;
+    height: 300px;
+    padding: 1%;
+}
+
+.myphoto{
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about-content h2{
+    color: #2811d1ce;
+}
+
+
+/* ================= WORK & EDUCATION ==================== */
+
+.content.experience{
+    margin: 6% 0%;  
+    margin-top: 3%;
+    justify-content: center;
+    gap: 2%;
+}
+
+.content.experience h2{
+    color: white;
+    background-color: #22c4e9;
+    background-image: linear-gradient(12deg, #0dadd0 0%, #2811d1ce 100%);
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    padding: 1% 0%;
+    padding-left: 1%;    
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;    
+}
+
+.content.experience h3{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    padding: 1% 1%;
+}
+
+.content.experience p{
+    font-size: 25px;    
+    padding: 0% 1%;
+    padding-bottom: 1%;
+}
+
+.work-list, .training-list{
+    width: 50%;
+    margin: 1%;
+    border: 2px solid #2811d1ce;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+/* ================= CONTACT ==================== */
+
+.contact-section{
+    border-top: 3px solid #2811d1ce ;
+}
+
+.contact-container{
+    display: flex;
+    width: 92vw;
+    margin: 1%;
+    padding-bottom: 2%;
+}
+
+.contact-container h2, h4, p{
+    color: #2811d1ce;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact-container h3{
+    color: #2811d1ce;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+
+.contact-container h4{
+    font-size: 1.5rem;
+}
+
+.contact-container p{
+    font-size: 20px;
+}
+
+/* LEFT COLUMN */
+
+.contact-leftcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+}
+
+.contact-list-flex{
+    display: flex;
+}
+
+
+.contact-header{
+    width: 100%;
+}
+
+.contact-list-top, .contact-list-bottom{
+    display: flex;
+    margin-top: 3%;
+}
+
+.contact-1, .contact-2, .contact-3, .contact-4{
+    width: 100%;   
+    min-width: 350px; 
+}
+
+.contact-detail{
+    width: 100%;
+}
+
+/* RIGHT COLUMN */
+
+.contact-rightcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.contact-icon1, .contact-icon2, .contact-icon3, .contact-icon4{
+    display: flex;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    padding: 10px;
+}
+
+.contact-img{
+    width: 100%;
+    max-width: 300px;
+}
+
+/* FOOTER */
+
+.foot-tag{
+    padding: 3%;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* ================= MEDIA QUERY ==================== */
+
+@media (max-width:1100px){
+
+.content{
+    width: 100%;
+}    
+
+/* COVER */
+
+.line-left{
+    display: none;
+}
+
+.line-right{
+    display: none;
+}
+
+.bottom-circle1, .bottom-circle2, .bottom-circle3{
+    display: none;
+}
+
+.row{
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: fit-content;
+    margin-right: 3%;
+}    
+
+.cover{
+    align-self: baseline;
+    width: 400px;
+}
+
+.greeting{
+    margin-top: 2rem;;
+    margin-left: 0%;
+}
+    
+h1{
+    font-size: 3.5rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+/* MY WORK */
+
+.mywork h3{
+    text-align: center;
+    padding-top: 5%;
+}
+
+/* ABOUT ME */
+.row.photo-container{
+    justify-content: left;
+    height: fit-content;
+}
+
+.about .content{
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    width: 94.5%;
+}
+
+.about .content p{
+    font-size: 22px;
+    text-align: justify;
+}
+
+.container.about{
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content{
+    margin-top: 2%;
+}
+
+/* WORK & EXPERIENCE */
+
+.container.experience{
+    display: flex;
+}
+
+.content.experience{
+    margin: 0% 3%;
+    flex-direction: column;  
+    width: 100%;
+}
+    
+.work-list{
+    margin: 1%;
+    width: 100%;
+}
+
+.training-list{
+    margin: 1%;    
+    width: 100%;
+}
+
+/* CONTACTS */
+
+.contact-list-top, .contact-list-bottom{
+    flex-direction: column;
+}
+
+}   
+
